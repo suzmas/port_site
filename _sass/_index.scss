@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+
+html, body {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+body {
+    background: url(http://blog.hostbaby.com/wp-content/uploads/2013/07/scuffedstatic_blue1400x900.jpg) no-repeat center center fixed; 
+    font-family: 'Josefin Slab', Arial, sans-serif;
+}
+.div {
+    display: block;
+}
+.container {
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
+.content {
+    position: relative;
+    width: 500px;
+    margin: auto;
+}
+.bmenu {
+    padding: 0px;
+    margin: 0 0 10px 0;
+    position: relative;
+}
+.bmenu li {
+    font-size: 50px;
+    display: block;
+}
+.bmenu li a {
+    color: transparent;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 3px #fff;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.bmenu:hover li a {
+    text-shadow: 0px 0px 6px #fff;
+}
+.bmenu li a:hover {
+    color: #fff;
+    text-shadow: 0px 0px 1px #fff;
+    padding-left: 10px;
+}
